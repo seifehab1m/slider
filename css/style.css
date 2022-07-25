@@ -1,0 +1,38 @@
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.item
+{
+    cursor: pointer;
+}
+.img-info
+{
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+.lightBoxContainer
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.img-lightBoxContainer
+{
+    width: 50%;
+    height: 500px;
+    background-image:url(../images/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.img-lightBoxContainer i{
+    font-size: 20px;
+    cursor: pointer;
+}
